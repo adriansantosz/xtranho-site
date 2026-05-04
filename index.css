@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif
+}
+
+nav{
+    background: black;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: purple;
+}
+
+#home {
+    background: url('img/banner.png') center/cover no-repeat;
+    color: rgb(255, 255, 255);
+    text-shadow: black;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#home h1 {
+    font-size: 35px;
+    text-shadow: 3px 3px 8px black;
+}
+
+#home p {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #222;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: purple;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#sobre {
+    background-color: rgb(102, 101, 101);
+}
+
+#conceito {
+    background-color: rgb(102, 101, 101);
+}
+
+#narrativa {
+    background-color: rgb(102, 101, 101);
+}
+
+#contato {
+    background-color: rgb(102,101,101);
+}
+
+ 
+#contato h1 {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    text-align: center;
+    font-style: italic;
+}   
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 40px auto;
+}
+
+form label {
+    text-align: left;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+form input,
+form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+    background-color: rgb(219, 219, 219);
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+form input:focus,
+form textarea:focus {
+    border: 1px solid rgb(118, 3, 146);
+}
+
+form button {
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: rgb(104, 3, 129);
+    transform: translateY(-2px);
+}
+
+.footer {
+    background: grey;
+    padding: 40px 20px;
+}
+
+.footer h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo-contato {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icone {
+    width: 40px;
+    height: auto;
+}
+
+.contato-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.img-lateral {
+    width: 200px; 
+    height: auto;
+}
+
+.conteudo-contato {
+    width: 1200px; 
+}
+
+.img-lateral {
+    width: 200px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.img-lateral:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.social-links ul {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.social-links ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-links ul li a:hover {
+    background: purple;
+    transform: translateY(-2px);
+}
+
+.social-links .copyright {
+    margin-top: 23px;
+}
+
+.clipe {
+    display: inline;
+    margin-top: 10px;
+    background-color: rgb(102,101,101);
+}
+
+#agenda {
+    background: rgb(102,101,101);
+    color: black;
+}
+
+.tabela-shows {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.tabela-shows th {
+    background: purple;
+    color: black;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.tabela-shows td {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.tabela-shows tr:hover {
+    background: rgba(128, 0, 128, 0.2);
+}
+
+.mes td {
+    background:rgb(102, 101, 101);
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+}
+
+.btn-agenda {
+    background: purple;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.tabela-shows {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse; 
+}
+
+.tabela-shows,
+.tabela-shows th,
+.tabela-shows td {
+    border: 1px solid #444;
+}
+
+#lista-musicas {
+    background-color: rgb(102, 101, 101);
+    color: white;
+}
+
+.lista-musicas {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px;
+    justify-items: center;
+}
+
+.lista-musicas li {
+    background: #222;
+    padding: 12px;
+    width: 250px;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+#lista-musicas h2 {
+    color: black;
+}
+
+.lista-musicas li:hover {
+    background: purple;
+    transform: scale(1.05);
+}
+
+.lista-musicas li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.lista-musicas li a:hover {
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contato-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .conteudo-contato {
+        width: 100%;
+    }
+
+    .img-lateral {
+        width: 120px;
+    }
+
+    .lista-musicas {
+        grid-template-columns: 1fr;
+    }
+
+    .tabela-shows {
+        font-size: 12px;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+}
+
