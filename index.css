@@ -360,37 +360,54 @@ form button:hover {
     color: white;
 }
 
-@media (max-width: 768px) {
+#tema-btn {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 999;
+    background: purple;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
 
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
+body.dark-mode {
+    background-color: #111;
+    color: #eee;
+}
 
-    .contato-container {
-        flex-direction: column;
-        gap: 20px;
-    }
+body.dark-mode nav {
+    background: #000;
+}
 
-    .conteudo-contato {
-        width: 100%;
-    }
+body.dark-mode section {
+    background-color: #1a1a1a !important;
+    color: #eee;
+}
 
-    .img-lateral {
-        width: 120px;
-    }
+body.dark-mode .tabela-shows td,
+body.dark-mode .tabela-shows th {
+    color: #eee;
+}
 
-    .lista-musicas {
-        grid-template-columns: 1fr;
-    }
+#btn-vermais {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: purple;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
 
-    .tabela-shows {
-        font-size: 12px;
-    }
-
-    video {
-        width: 100%;
-        height: auto;
-    }
+#resposta {
+    margin-top: 15px;
+    color: purple;
+    font-weight: bold;
+    font-size: 16px;
 }
 
